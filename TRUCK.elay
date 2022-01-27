@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EmBitz_layout_file>
+	<ActiveTarget name="TRUCK" />
+	<File name="cmsis_boot\startup\startup_stm32f4xx.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="15023" topLine="266" />
+		</Cursor>
+	</File>
+	<File name="cmsis_boot\stm32f4xx.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="74096" topLine="1165" />
+		</Cursor>
+	</File>
+	<File name="cmsis_boot\system_stm32f4xx.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="15874" topLine="367" />
+		</Cursor>
+	</File>
+	<File name="cmsis_boot\system_stm32f4xx.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1920" topLine="25" />
+		</Cursor>
+	</File>
+	<File name="FreeRTOS\include\task.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="13346" topLine="289" />
+		</Cursor>
+	</File>
+	<File name="FreeRTOS\tasks.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="85167" topLine="2142" />
+		</Cursor>
+	</File>
+	<File name="main.c" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1381" topLine="85" />
+		</Cursor>
+	</File>
+	<File name="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="14019" topLine="108" />
+		</Cursor>
+	</File>
+	<File name="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="8" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3447" topLine="77" />
+		</Cursor>
+	</File>
+	<File name="STM32F4xx_StdPeriph_Driver\src\misc.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="10" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="41616" topLine="1078" />
+		</Cursor>
+	</File>
+	<File name="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="354" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="49299" topLine="1210" />
+		</Cursor>
+	</File>
+	<File name="Tasks\Keys\ConfigPins.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="75" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="Tasks\Keys\Keys.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1377" topLine="17" />
+		</Cursor>
+	</File>
+	<File name="Tasks\Keys\Keys.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="276" topLine="0" />
+		</Cursor>
+	</File>
+</EmBitz_layout_file>

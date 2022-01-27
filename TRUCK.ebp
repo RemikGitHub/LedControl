@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EmBitz_project_file>
+	<EmBitzVersion release="2.10" revision="0" />
+	<FileVersion major="2" minor="0" />
+	<Project>
+		<Option title="TRUCK" />
+		<Option pch_mode="2" />
+		<Option compiler="armgcc_eb" />
+		<Build>
+			<Target title="TRUCK">
+				<Option output="output\truck\TRUCK.elf" />
+				<Option type="0" />
+				<Option create_hex="1" />
+				<Option compiler="armgcc_eb" />
+				<Device>
+					<Add option="$device=cortex-m4" />
+					<Add option="$fpu=fpv4-sp-d16" />
+					<Add option="$lscript=.\TRUCK.ld" />
+				</Device>
+				<Compiler>
+					<Add option="-mfloat-abi=hard" />
+					<Add option="-Wall" />
+					<Add option="-ffunction-sections" />
+					<Add option="-O0" />
+					<Add option="-g" />
+					<Add symbol="STM32F407VG" />
+					<Add symbol="STM32F4XX" />
+					<Add symbol="USE_STDPERIPH_DRIVER" />
+					<Add symbol="__FPU_USED" />
+					<Add directory="." />
+				</Compiler>
+				<Linker>
+					<Add option="-Wl,--gc-sections" />
+				</Linker>
+			</Target>
+		</Build>
+		<Device>
+			<Add option="$device=cortex-m4" />
+			<Add option="$fpu=fpv4-sp-d16" />
+			<Add option="$lscript=.\TRUCK.ld" />
+		</Device>
+		<Compiler>
+			<Add directory="Tasks\I2C" />
+			<Add directory="STM32F4xx_StdPeriph_Driver\inc" />
+			<Add directory="Tasks\XBEE" />
+			<Add directory="cmsis" />
+			<Add directory="cmsis_boot" />
+			<Add directory="FreeRTOS\include" />
+			<Add directory="Tasks\Keys" />
+			<Add directory="Tasks\ADC" />
+			<Add directory="Tasks\Serwo" />
+			<Add directory="Tasks\TruckStatus" />
+			<Add directory="Tasks\Akcelerometr" />
+			<Add directory="FreeRTOS\portable\GCC\ARM_CM4F" />
+			<Add directory="Tasks\PomPredk" />
+		</Compiler>
+		<Unit filename="cmsis\core_cm4.h" />
+		<Unit filename="cmsis\core_cm4_simd.h" />
+		<Unit filename="cmsis\core_cmFunc.h" />
+		<Unit filename="cmsis\core_cmInstr.h" />
+		<Unit filename="cmsis_boot\startup\startup_stm32f4xx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cmsis_boot\stm32f4xx.h" />
+		<Unit filename="cmsis_boot\stm32f4xx_conf.h" />
+		<Unit filename="cmsis_boot\system_stm32f4xx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cmsis_boot\system_stm32f4xx.h" />
+		<Unit filename="FreeRTOS\croutine.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FreeRTOS\include\croutine.h" />
+		<Unit filename="FreeRTOS\include\FreeRTOS.h" />
+		<Unit filename="FreeRTOS\include\FreeRTOSConfig.h" />
+		<Unit filename="FreeRTOS\include\list.h" />
+		<Unit filename="FreeRTOS\include\mpu_wrappers.h" />
+		<Unit filename="FreeRTOS\include\portable.h" />
+		<Unit filename="FreeRTOS\include\projdefs.h" />
+		<Unit filename="FreeRTOS\include\queue.h" />
+		<Unit filename="FreeRTOS\include\semphr.h" />
+		<Unit filename="FreeRTOS\include\StackMacros.h" />
+		<Unit filename="FreeRTOS\include\task.h" />
+		<Unit filename="FreeRTOS\include\timers.h" />
+		<Unit filename="FreeRTOS\list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FreeRTOS\portable\GCC\ARM_CM4F\port.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h" />
+		<Unit filename="FreeRTOS\portable\MemMang\heap_2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FreeRTOS\queue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FreeRTOS\tasks.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FreeRTOS\timers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\misc.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h" />
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\misc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_can.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_crc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_aes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_tdes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dac.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_md5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_sha1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_pwr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rtc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sdio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_StdPeriph_Driver\src\stm32f4xx_wwdg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Tasks\Keys\ConfigPins.h" />
+		<Unit filename="Tasks\Keys\Keys.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Tasks\Keys\Keys.h" />
+		<Extensions>
+			<code_completion />
+			<debugger>
+				<target_debugging_settings target="TRUCK">
+					<debug_interface description="" options="0" reg_filter="0" probe="" device="" speed="" bus_address="" serial="" defines="" scripts="" flash_size="" ram_size="" vcc_voltage="" verbose="32" unwind="42834176" rstType="8912896" use_jtag="false" disable_cache="false" enable_semi="false" close_eblink="false" gdb_reset="" gdb_reset_remote="reset" gdb_before_conn="" gdb_after_conn="" use_remote="false" ip_address="localhost" ip_port="4242" path="${EMBITZ}\share\contrib" executable="STLinkGDB.exe" start_server="false" arguments="" flash_verify="false" flash_run="false" />
+				</target_debugging_settings>
+			</debugger>
+			<envvars />
+		</Extensions>
+	</Project>
+</EmBitz_project_file>

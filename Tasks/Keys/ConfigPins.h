@@ -1,0 +1,68 @@
+#ifndef __CONFIG_PINS_H
+#define __CONFIG_PINS_H
+
+#define DIP_PIN1	GPIO_Pin_0	//PD0
+#define DIP_PIN2	GPIO_Pin_2	//PD2
+#define DIP_PIN3	GPIO_Pin_4	//PD4
+#define DIP_PIN4	GPIO_Pin_3	//PD6
+#define DIP_PORT1	GPIOD
+#define DIP_PORT2	GPIOD
+#define DIP_PORT3	GPIOD
+#define DIP_PORT4	GPIOD
+#define DIP_RCC_AHB	RCC_AHB1Periph_GPIOD
+
+#define FUN1_PIN		GPIO_Pin_9
+#define FUN1_PORT		GPIOE
+#define FUN1_RCC_AHB	RCC_AHB1Periph_GPIOE
+#define FUN2_PIN		GPIO_Pin_11
+#define FUN2_PORT		GPIOE
+#define FUN2_RCC_AHB	RCC_AHB1Periph_GPIOE
+#define FUN3_PIN		GPIO_Pin_13
+#define FUN3_PORT		GPIOE
+#define FUN3_RCC_AHB	RCC_AHB1Periph_GPIOE
+#define FUN4_PIN		GPIO_Pin_14
+#define FUN4_PORT		GPIOE
+#define FUN4_RCC_AHB	RCC_AHB1Periph_GPIOE
+
+#define FUN5_PIN		GPIO_Pin_12
+#define FUN5_PORT		GPIOD
+#define FUN5_RCC_AHB	RCC_AHB1Periph_GPIOD
+#define FUN6_PIN		GPIO_Pin_13
+#define FUN6_PORT		GPIOD
+#define FUN6_RCC_AHB	RCC_AHB1Periph_GPIOD
+#define FUN7_PIN		GPIO_Pin_14
+#define FUN7_PORT		GPIOD
+#define FUN7_RCC_AHB	RCC_AHB1Periph_GPIOD
+#define FUN8_PIN		GPIO_Pin_15
+#define FUN8_PORT		GPIOD
+#define FUN8_RCC_AHB	RCC_AHB1Periph_GPIOD
+#define KIER_R_PIN		FUN1_PIN
+#define KIER_L_PIN		FUN2_PIN
+
+#define BUZZER_PIN		GPIO_Pin_2
+#define BUZZER_PORT		GPIOC
+#define BUZZER_RCC_AHB	RCC_AHB1Periph_GPIOC
+
+#define WIBES_PIN		GPIO_Pin_0
+#define WIBES_PORT		GPIOC
+#define WIBES_RCC_AHB	RCC_AHB1Periph_GPIOC
+
+#define TRAILER_SENSOR_PIN		GPIO_Pin_3
+#define TRAILER_SENSOR_PORT		GPIOC
+#define TRAILER_SENSOR_RCC_AHB	RCC_AHB1Periph_GPIOC
+
+#define CAMERA_PIN		GPIO_Pin_1
+#define CAMERA_PORT		GPIOD
+#define CAMERA_RCC_AHB	RCC_AHB1Periph_GPIOD
+
+#define KOGUTY_PIN		GPIO_Pin_1
+#define KOGUTY_PORT		GPIOB
+#define KOGUTY_RCC_AHB	RCC_AHB1Periph_GPIOB
+
+#define MP3_BUSY_PIN	    GPIO_Pin_4
+#define MP3_BUSY_PORT		GPIOB
+#define MP3_BUSY_RCC_AHB	RCC_AHB1Periph_GPIOB
+
+
+#endif
+

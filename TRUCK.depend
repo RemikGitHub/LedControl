@@ -1,0 +1,3289 @@
+# depslib dependency file v1.0
+1478457315 source:d:\_truck\main.c
+	"stm32f4xx.h"
+	"STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_tim.h"
+	"STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_rcc.h"
+	"FreeRTOS/include/FreeRTOS.h"
+	"FreeRTOS/include/task.h"
+	"FreeRTOS/include/semphr.h"
+	"USART.h"
+	"XBEE.h"
+	"stm32f4_discovery_lis3dsh.h"
+	"I2C.h"
+	"ADC.h"
+	"USART.h"
+	"Keys.h"
+	"CircularBuff.h"
+	"Serwo.h"
+	"CommDataDef.h"
+	"PomPredk.h"
+	"ConfigPins.h"
+
+1388480274 d:\_truck\cmsis_boot\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1388480274 d:\_truck\cmsis\core_cm4.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+	<core_cm4_simd.h>
+
+1388480274 d:\_truck\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+
+1388480274 d:\_truck\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+
+1388480274 d:\_truck\cmsis\core_cm4_simd.h
+	<cmsis_iar.h>
+
+1388480274 d:\_truck\cmsis_boot\system_stm32f4xx.h
+
+1388480274 d:\_truck\cmsis_boot\stm32f4xx_conf.h
+	"stm32f4xx_adc.h"
+	"stm32f4xx_can.h"
+	"stm32f4xx_crc.h"
+	"stm32f4xx_cryp.h"
+	"stm32f4xx_dac.h"
+	"stm32f4xx_dbgmcu.h"
+	"stm32f4xx_dcmi.h"
+	"stm32f4xx_dma.h"
+	"stm32f4xx_exti.h"
+	"stm32f4xx_flash.h"
+	"stm32f4xx_fsmc.h"
+	"stm32f4xx_hash.h"
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_i2c.h"
+	"stm32f4xx_iwdg.h"
+	"stm32f4xx_pwr.h"
+	"stm32f4xx_rcc.h"
+	"stm32f4xx_rng.h"
+	"stm32f4xx_rtc.h"
+	"stm32f4xx_sdio.h"
+	"stm32f4xx_spi.h"
+	"stm32f4xx_syscfg.h"
+	"stm32f4xx_tim.h"
+	"stm32f4xx_usart.h"
+	"stm32f4xx_wwdg.h"
+	"misc.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\stm32f4xx_adc.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\stm32f4xx_can.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\stm32f4xx_crc.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\stm32f4xx_cryp.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dac.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dbgmcu.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dcmi.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dma.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\stm32f4xx_exti.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\stm32f4xx_flash.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\stm32f4xx_fsmc.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\stm32f4xx_hash.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\stm32f4xx_gpio.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\stm32f4xx_i2c.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\stm32f4xx_iwdg.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\stm32f4xx_pwr.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\stm32f4xx_rcc.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\stm32f4xx_rng.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\stm32f4xx_rtc.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\stm32f4xx_sdio.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\stm32f4xx_spi.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\stm32f4xx_syscfg.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\stm32f4xx_tim.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\stm32f4xx_usart.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\stm32f4xx_wwdg.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\stm32f4xx_stdperiph_driver\inc\misc.h
+	"stm32f4xx.h"
+
+1388480274 d:\_truck\freertos\include\freertos.h
+	<stddef.h>
+	"projdefs.h"
+	"FreeRTOSConfig.h"
+	"portable.h"
+
+1388480274 d:\_truck\freertos\include\projdefs.h
+
+1388480274 d:\_truck\freertos\include\freertosconfig.h
+	"stm32f4xx.h"
+	<stdint.h>
+
+1388480274 d:\_truck\freertos\include\portable.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC24_dsPIC\portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC24_dsPIC\portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC18F\portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC32MX\portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1388480274 d:\_truck\freertos\portable\gcc\arm_cm4f\portmacro.h
+
+1388480274 d:\_truck\freertos\include\mpu_wrappers.h
+
+1388480274 d:\_truck\freertos\include\task.h
+	"list.h"
+
+1388480274 d:\_truck\freertos\include\list.h
+
+1388480274 d:\_truck\freertos\include\semphr.h
+	"queue.h"
+
+1388480274 d:\_truck\freertos\include\queue.h
+
+1458032115 d:\_truck\tasks\xbee\usart.h
+	"stm32f4xx.h"
+	"CommDataDef.h"
+
+1478167246 d:\_truck\tasks\xbee\commdatadef.h
+	"stm32f4xx.h"
+
+1440264897 d:\_truck\tasks\xbee\xbee.h
+	"stm32f4xx.h"
+	"USART.h"
+	"CommDataDef.h"
+
+1414255115 d:\_truck\tasks\akcelerometr\stm32f4_discovery_lis3dsh.h
+	"stm32f4xx.h"
+
+1478348063 d:\_truck\tasks\i2c\i2c.h
+	"stm32f4xx.h"
+
+1416130470 d:\_truck\tasks\adc\adc.h
+	"stm32f4xx.h"
+	"stm32f4xx_adc.h"
+
+1478515217 d:\_truck\tasks\keys\keys.h
+	"stm32f4xx.h"
+	"stm32f4xx_tim.h"
+	"I2C.h"
+	"Serwo.h"
+	"Xbee.h"
+
+1462352267 d:\_truck\tasks\serwo\serwo.h
+	"stm32f4xx.h"
+
+1401881057 d:\_truck\tasks\xbee\circularbuff.h
+	"stm32f4xx.h"
+	"CommDataDef.h"
+	"stm32f4xx.h"
+
+1465888037 d:\_truck\tasks\pompredk\pompredk.h
+	"stm32f4xx.h"
+
+1472923795 d:\_truck\tasks\keys\configpins.h
+
+1415084820 source:d:\_truck\cmsis_boot\startup\startup_stm32f4xx.c
+
+1388480274 source:d:\_truck\cmsis_boot\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1388480274 source:d:\_truck\freertos\croutine.c
+	"FreeRTOS.h"
+	"task.h"
+	"croutine.h"
+
+1388480274 d:\_truck\freertos\include\croutine.h
+	"list.h"
+
+1388480274 source:d:\_truck\freertos\list.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"list.h"
+
+1388480274 source:d:\_truck\freertos\portable\gcc\arm_cm4f\port.c
+	"FreeRTOS.h"
+	"task.h"
+
+1388480274 source:d:\_truck\freertos\portable\memmang\heap_2.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+
+1388480274 source:d:\_truck\freertos\queue.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"croutine.h"
+
+1388480274 source:d:\_truck\freertos\tasks.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"StackMacros.h"
+	<stdio.h>
+
+1388480274 d:\_truck\freertos\include\timers.h
+	"task.h"
+
+1388480274 d:\_truck\freertos\include\stackmacros.h
+
+1388480274 source:d:\_truck\freertos\timers.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"timers.h"
+
+1388480274 source:d:\_truck\stm32f4_discovery.c
+	"stm32f4_discovery.h"
+
+1388480274 d:\_truck\stm32f4_discovery.h
+	"stm32f4xx.h"
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_syscfg.h"
+	"stm32f4xx_rcc.h"
+	"stm32f4xx_exti.h"
+	"misc.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\misc.c
+	"misc.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_adc.c
+	"stm32f4xx_adc.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_can.c
+	"stm32f4xx_can.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_crc.c
+	"stm32f4xx_crc.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp.c
+	"stm32f4xx_cryp.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp_aes.c
+	"stm32f4xx_cryp.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp_des.c
+	"stm32f4xx_cryp.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp_tdes.c
+	"stm32f4xx_cryp.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_dac.c
+	"stm32f4xx_dac.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_dbgmcu.c
+	"stm32f4xx_dbgmcu.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_dcmi.c
+	"stm32f4xx_dcmi.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_dma.c
+	"stm32f4xx_dma.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_exti.c
+	"stm32f4xx_exti.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_flash.c
+	"stm32f4xx_flash.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_fsmc.c
+	"stm32f4xx_fsmc.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_gpio.c
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_hash.c
+	"stm32f4xx_hash.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_hash_md5.c
+	"stm32f4xx_hash.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_hash_sha1.c
+	"stm32f4xx_hash.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_i2c.c
+	"stm32f4xx_i2c.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_iwdg.c
+	"stm32f4xx_iwdg.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_pwr.c
+	"stm32f4xx_pwr.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_rcc.c
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_rng.c
+	"stm32f4xx_rng.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_rtc.c
+	"stm32f4xx_rtc.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_sdio.c
+	"stm32f4xx_sdio.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_spi.c
+	"stm32f4xx_spi.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_syscfg.c
+	"stm32f4xx_syscfg.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_tim.c
+	"stm32f4xx_tim.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_usart.c
+	"stm32f4xx_usart.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\_truck\stm32f4xx_stdperiph_driver\src\stm32f4xx_wwdg.c
+	"stm32f4xx_wwdg.h"
+	"stm32f4xx_rcc.h"
+
+1440425776 source:d:\_truck\tasks\adc\adc.c
+	"ADC.h"
+
+1414078225 source:d:\_truck\tasks\akcelerometr\stm32f4_discovery_lis3dsh.c
+	"stm32f4_discovery_lis3dsh.h"
+
+1478348063 source:d:\_truck\tasks\i2c\i2c.c
+	"I2C.h"
+	"ConfigI2CPins.h"
+
+1460880398 d:\_truck\tasks\i2c\configi2cpins.h
+
+1478515312 source:d:\_truck\tasks\keys\keys.c
+	"Keys.h"
+	"stm32f4_discovery.h"
+	"CommDataDef.h"
+	"ConfigPins.h"
+	"PomPredk.h"
+
+1465889125 source:d:\_truck\tasks\pompredk\pompredk.c
+	"PomPredk.h"
+	"keys.h"
+	"stm32f4xx_tim.h"
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_exti.h"
+	"stm32f4xx.h"
+	"stm32f4_discovery.h"
+	"FreeRTOS/include/FreeRTOS.h"
+	"FreeRTOS/include/task.h"
+	"Keys.h"
+	"ConfigSpeedPins.h"
+
+1465493348 d:\_truck\tasks\pompredk\configspeedpins.h
+
+1466018923 source:d:\_truck\tasks\serwo\serwo.c
+	"Serwo.h"
+	"ConfigSerwoPins.h"
+	"stm32f4_discovery.h"
+
+1465191587 d:\_truck\tasks\serwo\configserwopins.h
+
+1409573577 source:d:\_truck\tasks\truckstatus\truckstatus.c
+	"TruckStatus.h"
+
+1409573633 d:\_truck\tasks\truckstatus\truckstatus.h
+
+1408107732 source:d:\_truck\tasks\xbee\circularbuff.c
+	<stdio.h>
+	<stdlib.h>
+	"CircularBuff.h"
+	<stdio.h>
+	"CircularBuff.h"
+
+1462990271 source:d:\_truck\tasks\xbee\usart.c
+	"misc.h"
+	"ConfigXBEE_USART.h"
+	"stm32f4xx_rcc.h"
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_usart.h"
+	"xbee.h"
+	"CircularBuff.h"
+	"USART.h"
+
+1462817503 d:\_truck\tasks\xbee\configxbee_usart.h
+
+1440264974 source:d:\_truck\tasks\xbee\xbee.c
+	"xbee.h"
+
+1415084822 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\cmsis_boot\startup\startup_stm32f4xx.c
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\cmsis_boot\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\cmsis_boot\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\cmsis\core_cm4.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+	<core_cm4_simd.h>
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\cmsis\core_cm4_simd.h
+	<cmsis_iar.h>
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\cmsis_boot\system_stm32f4xx.h
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\cmsis_boot\stm32f4xx_conf.h
+	"stm32f4xx_adc.h"
+	"stm32f4xx_can.h"
+	"stm32f4xx_crc.h"
+	"stm32f4xx_cryp.h"
+	"stm32f4xx_dac.h"
+	"stm32f4xx_dbgmcu.h"
+	"stm32f4xx_dcmi.h"
+	"stm32f4xx_dma.h"
+	"stm32f4xx_exti.h"
+	"stm32f4xx_flash.h"
+	"stm32f4xx_fsmc.h"
+	"stm32f4xx_hash.h"
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_i2c.h"
+	"stm32f4xx_iwdg.h"
+	"stm32f4xx_pwr.h"
+	"stm32f4xx_rcc.h"
+	"stm32f4xx_rng.h"
+	"stm32f4xx_rtc.h"
+	"stm32f4xx_sdio.h"
+	"stm32f4xx_spi.h"
+	"stm32f4xx_syscfg.h"
+	"stm32f4xx_tim.h"
+	"stm32f4xx_usart.h"
+	"stm32f4xx_wwdg.h"
+	"misc.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\stm32f4xx_adc.h
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\stm32f4xx_can.h
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\stm32f4xx_crc.h
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\stm32f4xx_cryp.h
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dac.h
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dbgmcu.h
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dcmi.h
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dma.h
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\stm32f4xx_exti.h
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\stm32f4xx_flash.h
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\stm32f4xx_fsmc.h
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\stm32f4xx_hash.h
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\stm32f4xx_gpio.h
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\stm32f4xx_i2c.h
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\stm32f4xx_iwdg.h
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\stm32f4xx_pwr.h
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\stm32f4xx_rcc.h
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\stm32f4xx_rng.h
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\stm32f4xx_rtc.h
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\stm32f4xx_sdio.h
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\stm32f4xx_spi.h
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\stm32f4xx_syscfg.h
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\stm32f4xx_tim.h
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\stm32f4xx_usart.h
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\stm32f4xx_wwdg.h
+	"stm32f4xx.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\inc\misc.h
+	"stm32f4xx.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\freertos\croutine.c
+	"FreeRTOS.h"
+	"task.h"
+	"croutine.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\freertos\include\freertos.h
+	<stddef.h>
+	"projdefs.h"
+	"FreeRTOSConfig.h"
+	"portable.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\freertos\include\projdefs.h
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\freertos\include\freertosconfig.h
+	"stm32f4xx.h"
+	<stdint.h>
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\freertos\include\portable.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC24_dsPIC\portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC24_dsPIC\portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC18F\portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC32MX\portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\freertos\portable\gcc\arm_cm4f\portmacro.h
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\freertos\include\mpu_wrappers.h
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\freertos\include\task.h
+	"list.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\freertos\include\list.h
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\freertos\include\croutine.h
+	"list.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\freertos\list.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"list.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\freertos\portable\gcc\arm_cm4f\port.c
+	"FreeRTOS.h"
+	"task.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\freertos\portable\memmang\heap_2.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\freertos\queue.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"croutine.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\freertos\include\queue.h
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\freertos\tasks.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"StackMacros.h"
+	<stdio.h>
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\freertos\include\timers.h
+	"task.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\freertos\include\stackmacros.h
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\freertos\timers.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"timers.h"
+
+1480936648 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\main.c
+	"stm32f4xx.h"
+	"STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_tim.h"
+	"STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_rcc.h"
+	"FreeRTOS/include/FreeRTOS.h"
+	"FreeRTOS/include/task.h"
+	"FreeRTOS/include/semphr.h"
+	"USART.h"
+	"XBEE.h"
+	"stm32f4_discovery_lis3dsh.h"
+	"I2C.h"
+	"ADC.h"
+	"USART.h"
+	"Keys.h"
+	"CircularBuff.h"
+	"Serwo.h"
+	"CommDataDef.h"
+	"PomPredk.h"
+	"ConfigPins.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\freertos\include\semphr.h
+	"queue.h"
+
+1458032116 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\xbee\usart.h
+	"stm32f4xx.h"
+	"CommDataDef.h"
+
+1480931884 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\xbee\commdatadef.h
+	"stm32f4xx.h"
+
+1480936541 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\xbee\xbee.h
+	"stm32f4xx.h"
+	"USART.h"
+	"CommDataDef.h"
+
+1414255116 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\akcelerometr\stm32f4_discovery_lis3dsh.h
+	"stm32f4xx.h"
+
+1478348064 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\i2c\i2c.h
+	"stm32f4xx.h"
+
+1416130472 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\adc\adc.h
+	"stm32f4xx.h"
+	"stm32f4xx_adc.h"
+
+1480932920 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\keys\keys.h
+	"stm32f4xx.h"
+	"stm32f4xx_tim.h"
+	"I2C.h"
+	"Serwo.h"
+	"Xbee.h"
+
+1462352268 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\serwo\serwo.h
+	"stm32f4xx.h"
+
+1401881058 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\xbee\circularbuff.h
+	"stm32f4xx.h"
+	"CommDataDef.h"
+	"stm32f4xx.h"
+
+1465888038 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\pompredk\pompredk.h
+	"stm32f4xx.h"
+
+1472923796 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\keys\configpins.h
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4_discovery.c
+	"stm32f4_discovery.h"
+
+1388480274 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4_discovery.h
+	"stm32f4xx.h"
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_syscfg.h"
+	"stm32f4xx_rcc.h"
+	"stm32f4xx_exti.h"
+	"misc.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\misc.c
+	"misc.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_adc.c
+	"stm32f4xx_adc.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_can.c
+	"stm32f4xx_can.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_crc.c
+	"stm32f4xx_crc.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp.c
+	"stm32f4xx_cryp.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp_aes.c
+	"stm32f4xx_cryp.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp_des.c
+	"stm32f4xx_cryp.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp_tdes.c
+	"stm32f4xx_cryp.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_dac.c
+	"stm32f4xx_dac.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_dbgmcu.c
+	"stm32f4xx_dbgmcu.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_dcmi.c
+	"stm32f4xx_dcmi.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_dma.c
+	"stm32f4xx_dma.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_exti.c
+	"stm32f4xx_exti.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_flash.c
+	"stm32f4xx_flash.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_fsmc.c
+	"stm32f4xx_fsmc.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_gpio.c
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_hash.c
+	"stm32f4xx_hash.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_hash_md5.c
+	"stm32f4xx_hash.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_hash_sha1.c
+	"stm32f4xx_hash.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_i2c.c
+	"stm32f4xx_i2c.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_iwdg.c
+	"stm32f4xx_iwdg.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_pwr.c
+	"stm32f4xx_pwr.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_rcc.c
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_rng.c
+	"stm32f4xx_rng.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_rtc.c
+	"stm32f4xx_rtc.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_sdio.c
+	"stm32f4xx_sdio.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_spi.c
+	"stm32f4xx_spi.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_syscfg.c
+	"stm32f4xx_syscfg.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_tim.c
+	"stm32f4xx_tim.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_usart.c
+	"stm32f4xx_usart.h"
+	"stm32f4xx_rcc.h"
+
+1388480274 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\stm32f4xx_stdperiph_driver\src\stm32f4xx_wwdg.c
+	"stm32f4xx_wwdg.h"
+	"stm32f4xx_rcc.h"
+
+1440425778 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\adc\adc.c
+	"ADC.h"
+
+1414078226 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\akcelerometr\stm32f4_discovery_lis3dsh.c
+	"stm32f4_discovery_lis3dsh.h"
+
+1478348064 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\i2c\i2c.c
+	"I2C.h"
+	"ConfigI2CPins.h"
+
+1460880400 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\i2c\configi2cpins.h
+
+1480940284 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\keys\keys.c
+	"Keys.h"
+	"CommDataDef.h"
+	"ConfigPins.h"
+	"PomPredk.h"
+
+1480932102 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\pompredk\pompredk.c
+	"PomPredk.h"
+	"keys.h"
+	"stm32f4xx_tim.h"
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_exti.h"
+	"stm32f4xx.h"
+	"FreeRTOS/include/FreeRTOS.h"
+	"FreeRTOS/include/task.h"
+	"Keys.h"
+	"ConfigSpeedPins.h"
+
+1465493350 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\pompredk\configspeedpins.h
+
+1482074950 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\serwo\serwo.c
+	"Serwo.h"
+	"ConfigSerwoPins.h"
+
+1465191588 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\serwo\configserwopins.h
+
+1409573578 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\truckstatus\truckstatus.c
+	"TruckStatus.h"
+
+1409573634 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\truckstatus\truckstatus.h
+
+1408107734 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\xbee\circularbuff.c
+	<stdio.h>
+	<stdlib.h>
+	"CircularBuff.h"
+	<stdio.h>
+	"CircularBuff.h"
+
+1462990272 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\xbee\usart.c
+	"misc.h"
+	"ConfigXBEE_USART.h"
+	"stm32f4xx_rcc.h"
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_usart.h"
+	"xbee.h"
+	"CircularBuff.h"
+	"USART.h"
+
+1462817504 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\xbee\configxbee_usart.h
+
+1440264976 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program\tasks\xbee\xbee.c
+	"xbee.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\cmsis_boot\startup\startup_stm32f4xx.c
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\cmsis_boot\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\cmsis_boot\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1484744772 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\cmsis\core_cm4.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+	<core_cm4_simd.h>
+
+1484744772 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+
+1484744772 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+
+1484744772 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\cmsis\core_cm4_simd.h
+	<cmsis_iar.h>
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\cmsis_boot\system_stm32f4xx.h
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\cmsis_boot\stm32f4xx_conf.h
+	"stm32f4xx_adc.h"
+	"stm32f4xx_can.h"
+	"stm32f4xx_crc.h"
+	"stm32f4xx_cryp.h"
+	"stm32f4xx_dac.h"
+	"stm32f4xx_dbgmcu.h"
+	"stm32f4xx_dcmi.h"
+	"stm32f4xx_dma.h"
+	"stm32f4xx_exti.h"
+	"stm32f4xx_flash.h"
+	"stm32f4xx_fsmc.h"
+	"stm32f4xx_hash.h"
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_i2c.h"
+	"stm32f4xx_iwdg.h"
+	"stm32f4xx_pwr.h"
+	"stm32f4xx_rcc.h"
+	"stm32f4xx_rng.h"
+	"stm32f4xx_rtc.h"
+	"stm32f4xx_sdio.h"
+	"stm32f4xx_spi.h"
+	"stm32f4xx_syscfg.h"
+	"stm32f4xx_tim.h"
+	"stm32f4xx_usart.h"
+	"stm32f4xx_wwdg.h"
+	"misc.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_adc.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_can.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_crc.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_cryp.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dac.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dbgmcu.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dcmi.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dma.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_exti.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_flash.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_fsmc.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_hash.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_gpio.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_i2c.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_iwdg.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_pwr.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_rcc.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_rng.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_rtc.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_sdio.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_spi.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_syscfg.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_tim.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_usart.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_wwdg.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\misc.h
+	"stm32f4xx.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\freertos\croutine.c
+	"FreeRTOS.h"
+	"task.h"
+	"croutine.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\freertos\include\freertos.h
+	<stddef.h>
+	"projdefs.h"
+	"FreeRTOSConfig.h"
+	"portable.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\freertos\include\projdefs.h
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\freertos\include\freertosconfig.h
+	"stm32f4xx.h"
+	<stdint.h>
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\freertos\include\portable.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC24_dsPIC\portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC24_dsPIC\portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC18F\portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC32MX\portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\freertos\portable\gcc\arm_cm4f\portmacro.h
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\freertos\include\mpu_wrappers.h
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\freertos\include\task.h
+	"list.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\freertos\include\list.h
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\freertos\include\croutine.h
+	"list.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\freertos\list.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"list.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\freertos\portable\gcc\arm_cm4f\port.c
+	"FreeRTOS.h"
+	"task.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\freertos\portable\memmang\heap_2.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\freertos\queue.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"croutine.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\freertos\include\queue.h
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\freertos\tasks.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"StackMacros.h"
+	<stdio.h>
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\freertos\include\timers.h
+	"task.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\freertos\include\stackmacros.h
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\freertos\timers.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"timers.h"
+
+1621795871 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\main.c
+	"stm32f4xx.h"
+	"STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_tim.h"
+	"STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_rcc.h"
+	"FreeRTOS/include/FreeRTOS.h"
+	"FreeRTOS/include/task.h"
+	"FreeRTOS/include/semphr.h"
+	"USART.h"
+	"XBEE.h"
+	"I2C.h"
+	"ADC.h"
+	"USART.h"
+	"Keys.h"
+	"CircularBuff.h"
+	"Serwo.h"
+	"CommDataDef.h"
+	"PomPredk.h"
+	"ConfigPins.h"
+	"KodyMP3.h"
+	"marka.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\freertos\include\semphr.h
+	"queue.h"
+
+1549979856 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\xbee\usart.h
+	"stm32f4xx.h"
+	"CommDataDef.h"
+
+1613689226 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\xbee\commdatadef.h
+	"stm32f4xx.h"
+
+1609275052 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\xbee\xbee.h
+	"stm32f4xx.h"
+	"USART.h"
+	"CommDataDef.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\akcelerometr\stm32f4_discovery_lis3dsh.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\i2c\i2c.h
+	"stm32f4xx.h"
+
+1416134072 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\adc\adc.h
+	"stm32f4xx.h"
+	"stm32f4xx_adc.h"
+
+1621789854 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\keys\keys.h
+	"stm32f4xx.h"
+	"stm32f4xx_tim.h"
+	"I2C.h"
+	"Serwo.h"
+	"Xbee.h"
+	"marka.h"
+
+1612803422 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\serwo\serwo.h
+	"stm32f4xx.h"
+
+1484744776 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\xbee\circularbuff.h
+	"stm32f4xx.h"
+	"CommDataDef.h"
+	"stm32f4xx.h"
+
+1517603662 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\pompredk\pompredk.h
+	"stm32f4xx.h"
+
+1590392838 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\keys\configpins.h
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\misc.c
+	"misc.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_adc.c
+	"stm32f4xx_adc.h"
+	"stm32f4xx_rcc.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_can.c
+	"stm32f4xx_can.h"
+	"stm32f4xx_rcc.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_crc.c
+	"stm32f4xx_crc.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp.c
+	"stm32f4xx_cryp.h"
+	"stm32f4xx_rcc.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp_aes.c
+	"stm32f4xx_cryp.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp_des.c
+	"stm32f4xx_cryp.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp_tdes.c
+	"stm32f4xx_cryp.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_dac.c
+	"stm32f4xx_dac.h"
+	"stm32f4xx_rcc.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_dbgmcu.c
+	"stm32f4xx_dbgmcu.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_dcmi.c
+	"stm32f4xx_dcmi.h"
+	"stm32f4xx_rcc.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_dma.c
+	"stm32f4xx_dma.h"
+	"stm32f4xx_rcc.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_exti.c
+	"stm32f4xx_exti.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_flash.c
+	"stm32f4xx_flash.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_fsmc.c
+	"stm32f4xx_fsmc.h"
+	"stm32f4xx_rcc.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_gpio.c
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_rcc.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_hash.c
+	"stm32f4xx_hash.h"
+	"stm32f4xx_rcc.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_hash_md5.c
+	"stm32f4xx_hash.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_hash_sha1.c
+	"stm32f4xx_hash.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_i2c.c
+	"stm32f4xx_i2c.h"
+	"stm32f4xx_rcc.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_iwdg.c
+	"stm32f4xx_iwdg.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_pwr.c
+	"stm32f4xx_pwr.h"
+	"stm32f4xx_rcc.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_rcc.c
+	"stm32f4xx_rcc.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_rng.c
+	"stm32f4xx_rng.h"
+	"stm32f4xx_rcc.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_rtc.c
+	"stm32f4xx_rtc.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_sdio.c
+	"stm32f4xx_sdio.h"
+	"stm32f4xx_rcc.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_spi.c
+	"stm32f4xx_spi.h"
+	"stm32f4xx_rcc.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_syscfg.c
+	"stm32f4xx_syscfg.h"
+	"stm32f4xx_rcc.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_tim.c
+	"stm32f4xx_tim.h"
+	"stm32f4xx_rcc.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_usart.c
+	"stm32f4xx_usart.h"
+	"stm32f4xx_rcc.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_wwdg.c
+	"stm32f4xx_wwdg.h"
+	"stm32f4xx_rcc.h"
+
+1518044348 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\adc\adc.c
+	"ADC.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\akcelerometr\stm32f4_discovery_lis3dsh.c
+	"stm32f4_discovery_lis3dsh.h"
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\i2c\i2c.c
+	"I2C.h"
+	"ConfigI2CPins.h"
+
+1460884000 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\i2c\configi2cpins.h
+
+1621792363 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\keys\keys.c
+	"Keys.h"
+	"CommDataDef.h"
+	"ConfigPins.h"
+	"PomPredk.h"
+	"ADC.h"
+	"ID.h"
+	"KodyMP3.h"
+	"marka.h"
+
+1528040410 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\pompredk\pompredk.c
+	"PomPredk.h"
+	"stm32f4xx_tim.h"
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_exti.h"
+	"stm32f4xx.h"
+	"FreeRTOS/include/FreeRTOS.h"
+	"FreeRTOS/include/task.h"
+	"Keys.h"
+
+1465493350 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\pompredk\configspeedpins.h
+
+1610982290 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\serwo\serwo.c
+	"Serwo.h"
+	"ConfigSerwoPins.h"
+
+1465195188 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\serwo\configserwopins.h
+
+1409577178 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\truckstatus\truckstatus.c
+	"TruckStatus.h"
+
+1409577234 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\truckstatus\truckstatus.h
+
+1484744776 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\xbee\circularbuff.c
+	<stdio.h>
+	<stdlib.h>
+	"CircularBuff.h"
+	<stdio.h>
+	"CircularBuff.h"
+
+1621794013 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\xbee\usart.c
+	"misc.h"
+	"ConfigXBEE_USART.h"
+	"stm32f4xx_rcc.h"
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_usart.h"
+	"xbee.h"
+	"CircularBuff.h"
+	"USART.h"
+	"KodyMP3.h"
+	"marka.h"
+	"Keys.h"
+
+1549484512 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\xbee\configxbee_usart.h
+
+1613244674 source:d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\xbee\xbee.c
+	"xbee.h"
+
+1613223380 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\marka.h
+
+1621793134 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\id.h
+
+1566579568 d:\piotr\_ciezarowka\modyfikacje\sterownik nowy\program nowy nadajnik\tasks\mp3\kodymp3.h
+
+1484741176 source:c:\piotr\program nowy nadajnik\cmsis_boot\startup\startup_stm32f4xx.c
+
+1484741176 source:c:\piotr\program nowy nadajnik\cmsis_boot\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\cmsis_boot\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1484741172 c:\piotr\program nowy nadajnik\cmsis\core_cm4.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+	<core_cm4_simd.h>
+
+1484741172 c:\piotr\program nowy nadajnik\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+
+1484741172 c:\piotr\program nowy nadajnik\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+
+1484741172 c:\piotr\program nowy nadajnik\cmsis\core_cm4_simd.h
+	<cmsis_iar.h>
+
+1484741176 c:\piotr\program nowy nadajnik\cmsis_boot\system_stm32f4xx.h
+
+1484741176 c:\piotr\program nowy nadajnik\cmsis_boot\stm32f4xx_conf.h
+	"stm32f4xx_adc.h"
+	"stm32f4xx_can.h"
+	"stm32f4xx_crc.h"
+	"stm32f4xx_cryp.h"
+	"stm32f4xx_dac.h"
+	"stm32f4xx_dbgmcu.h"
+	"stm32f4xx_dcmi.h"
+	"stm32f4xx_dma.h"
+	"stm32f4xx_exti.h"
+	"stm32f4xx_flash.h"
+	"stm32f4xx_fsmc.h"
+	"stm32f4xx_hash.h"
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_i2c.h"
+	"stm32f4xx_iwdg.h"
+	"stm32f4xx_pwr.h"
+	"stm32f4xx_rcc.h"
+	"stm32f4xx_rng.h"
+	"stm32f4xx_rtc.h"
+	"stm32f4xx_sdio.h"
+	"stm32f4xx_spi.h"
+	"stm32f4xx_syscfg.h"
+	"stm32f4xx_tim.h"
+	"stm32f4xx_usart.h"
+	"stm32f4xx_wwdg.h"
+	"misc.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_adc.h
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_can.h
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_crc.h
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_cryp.h
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dac.h
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dbgmcu.h
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dcmi.h
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dma.h
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_exti.h
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_flash.h
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_fsmc.h
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_hash.h
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_gpio.h
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_i2c.h
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_iwdg.h
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_pwr.h
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_rcc.h
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_rng.h
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_rtc.h
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_sdio.h
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_spi.h
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_syscfg.h
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_tim.h
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_usart.h
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\stm32f4xx_wwdg.h
+	"stm32f4xx.h"
+
+1484741176 c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\inc\misc.h
+	"stm32f4xx.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\freertos\croutine.c
+	"FreeRTOS.h"
+	"task.h"
+	"croutine.h"
+
+1484741176 c:\piotr\program nowy nadajnik\freertos\include\freertos.h
+	<stddef.h>
+	"projdefs.h"
+	"FreeRTOSConfig.h"
+	"portable.h"
+
+1484741176 c:\piotr\program nowy nadajnik\freertos\include\projdefs.h
+
+1484741176 c:\piotr\program nowy nadajnik\freertos\include\freertosconfig.h
+	"stm32f4xx.h"
+	<stdint.h>
+
+1484741176 c:\piotr\program nowy nadajnik\freertos\include\portable.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC24_dsPIC\portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC24_dsPIC\portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC18F\portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC32MX\portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1484741176 c:\piotr\program nowy nadajnik\freertos\portable\gcc\arm_cm4f\portmacro.h
+
+1484741176 c:\piotr\program nowy nadajnik\freertos\include\mpu_wrappers.h
+
+1484741176 c:\piotr\program nowy nadajnik\freertos\include\task.h
+	"list.h"
+
+1484741176 c:\piotr\program nowy nadajnik\freertos\include\list.h
+
+1484741176 c:\piotr\program nowy nadajnik\freertos\include\croutine.h
+	"list.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\freertos\list.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"list.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\freertos\portable\gcc\arm_cm4f\port.c
+	"FreeRTOS.h"
+	"task.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\freertos\portable\memmang\heap_2.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\freertos\queue.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"croutine.h"
+
+1484741176 c:\piotr\program nowy nadajnik\freertos\include\queue.h
+
+1484741176 source:c:\piotr\program nowy nadajnik\freertos\tasks.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"StackMacros.h"
+	<stdio.h>
+
+1484741176 c:\piotr\program nowy nadajnik\freertos\include\timers.h
+	"task.h"
+
+1484741176 c:\piotr\program nowy nadajnik\freertos\include\stackmacros.h
+
+1484741176 source:c:\piotr\program nowy nadajnik\freertos\timers.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"timers.h"
+
+1613764752 source:c:\piotr\program nowy nadajnik\main.c
+	"stm32f4xx.h"
+	"STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_tim.h"
+	"STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_rcc.h"
+	"FreeRTOS/include/FreeRTOS.h"
+	"FreeRTOS/include/task.h"
+	"FreeRTOS/include/semphr.h"
+	"USART.h"
+	"XBEE.h"
+	"I2C.h"
+	"ADC.h"
+	"USART.h"
+	"Keys.h"
+	"CircularBuff.h"
+	"Serwo.h"
+	"CommDataDef.h"
+	"PomPredk.h"
+	"ConfigPins.h"
+	"KodyMP3.h"
+	"marka.h"
+
+1484741176 c:\piotr\program nowy nadajnik\freertos\include\semphr.h
+	"queue.h"
+
+1549976256 c:\piotr\program nowy nadajnik\tasks\xbee\usart.h
+	"stm32f4xx.h"
+	"CommDataDef.h"
+
+1613685626 c:\piotr\program nowy nadajnik\tasks\xbee\commdatadef.h
+	"stm32f4xx.h"
+
+1609271452 c:\piotr\program nowy nadajnik\tasks\xbee\xbee.h
+	"stm32f4xx.h"
+	"USART.h"
+	"CommDataDef.h"
+
+1484741176 c:\piotr\program nowy nadajnik\tasks\i2c\i2c.h
+	"stm32f4xx.h"
+
+1416130472 c:\piotr\program nowy nadajnik\tasks\adc\adc.h
+	"stm32f4xx.h"
+	"stm32f4xx_adc.h"
+
+1613731714 c:\piotr\program nowy nadajnik\tasks\keys\keys.h
+	"stm32f4xx.h"
+	"stm32f4xx_tim.h"
+	"I2C.h"
+	"Serwo.h"
+	"Xbee.h"
+	"marka.h"
+
+1612799822 c:\piotr\program nowy nadajnik\tasks\serwo\serwo.h
+	"stm32f4xx.h"
+
+1613219780 c:\piotr\program nowy nadajnik\marka.h
+
+1484741176 c:\piotr\program nowy nadajnik\tasks\xbee\circularbuff.h
+	"stm32f4xx.h"
+	"CommDataDef.h"
+	"stm32f4xx.h"
+
+1517600062 c:\piotr\program nowy nadajnik\tasks\pompredk\pompredk.h
+	"stm32f4xx.h"
+
+1590389238 c:\piotr\program nowy nadajnik\tasks\keys\configpins.h
+
+1566575968 c:\piotr\program nowy nadajnik\tasks\mp3\kodymp3.h
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\misc.c
+	"misc.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_adc.c
+	"stm32f4xx_adc.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_can.c
+	"stm32f4xx_can.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_crc.c
+	"stm32f4xx_crc.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp.c
+	"stm32f4xx_cryp.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp_aes.c
+	"stm32f4xx_cryp.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp_des.c
+	"stm32f4xx_cryp.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp_tdes.c
+	"stm32f4xx_cryp.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_dac.c
+	"stm32f4xx_dac.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_dbgmcu.c
+	"stm32f4xx_dbgmcu.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_dcmi.c
+	"stm32f4xx_dcmi.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_dma.c
+	"stm32f4xx_dma.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_exti.c
+	"stm32f4xx_exti.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_flash.c
+	"stm32f4xx_flash.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_fsmc.c
+	"stm32f4xx_fsmc.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_gpio.c
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_hash.c
+	"stm32f4xx_hash.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_hash_md5.c
+	"stm32f4xx_hash.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_hash_sha1.c
+	"stm32f4xx_hash.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_i2c.c
+	"stm32f4xx_i2c.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_iwdg.c
+	"stm32f4xx_iwdg.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_pwr.c
+	"stm32f4xx_pwr.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_rcc.c
+	"stm32f4xx_rcc.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_rng.c
+	"stm32f4xx_rng.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_rtc.c
+	"stm32f4xx_rtc.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_sdio.c
+	"stm32f4xx_sdio.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_spi.c
+	"stm32f4xx_spi.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_syscfg.c
+	"stm32f4xx_syscfg.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_tim.c
+	"stm32f4xx_tim.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_usart.c
+	"stm32f4xx_usart.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\stm32f4xx_stdperiph_driver\src\stm32f4xx_wwdg.c
+	"stm32f4xx_wwdg.h"
+	"stm32f4xx_rcc.h"
+
+1518040748 source:c:\piotr\program nowy nadajnik\tasks\adc\adc.c
+	"ADC.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\tasks\akcelerometr\stm32f4_discovery_lis3dsh.c
+	"stm32f4_discovery_lis3dsh.h"
+
+1484741176 c:\piotr\program nowy nadajnik\tasks\akcelerometr\stm32f4_discovery_lis3dsh.h
+	"stm32f4xx.h"
+
+1484741176 source:c:\piotr\program nowy nadajnik\tasks\i2c\i2c.c
+	"I2C.h"
+	"ConfigI2CPins.h"
+
+1460880400 c:\piotr\program nowy nadajnik\tasks\i2c\configi2cpins.h
+
+1613926622 source:c:\piotr\program nowy nadajnik\tasks\keys\keys.c
+	"Keys.h"
+	"CommDataDef.h"
+	"ConfigPins.h"
+	"PomPredk.h"
+	"ADC.h"
+	"ID.h"
+	"KodyMP3.h"
+	"marka.h"
+
+1613747330 c:\piotr\program nowy nadajnik\id.h
+
+1528036810 source:c:\piotr\program nowy nadajnik\tasks\pompredk\pompredk.c
+	"PomPredk.h"
+	"stm32f4xx_tim.h"
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_exti.h"
+	"stm32f4xx.h"
+	"FreeRTOS/include/FreeRTOS.h"
+	"FreeRTOS/include/task.h"
+	"Keys.h"
+
+1610978690 source:c:\piotr\program nowy nadajnik\tasks\serwo\serwo.c
+	"Serwo.h"
+	"ConfigSerwoPins.h"
+
+1465191588 c:\piotr\program nowy nadajnik\tasks\serwo\configserwopins.h
+
+1409573578 source:c:\piotr\program nowy nadajnik\tasks\truckstatus\truckstatus.c
+	"TruckStatus.h"
+
+1409573634 c:\piotr\program nowy nadajnik\tasks\truckstatus\truckstatus.h
+
+1484741176 source:c:\piotr\program nowy nadajnik\tasks\xbee\circularbuff.c
+	<stdio.h>
+	<stdlib.h>
+	"CircularBuff.h"
+	<stdio.h>
+	"CircularBuff.h"
+
+1612858098 source:c:\piotr\program nowy nadajnik\tasks\xbee\usart.c
+	"misc.h"
+	"ConfigXBEE_USART.h"
+	"stm32f4xx_rcc.h"
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_usart.h"
+	"xbee.h"
+	"CircularBuff.h"
+	"USART.h"
+	"KodyMP3.h"
+	"marka.h"
+	"Keys.h"
+
+1549480912 c:\piotr\program nowy nadajnik\tasks\xbee\configxbee_usart.h
+
+1613241074 source:c:\piotr\program nowy nadajnik\tasks\xbee\xbee.c
+	"xbee.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\cmsis_boot\startup\startup_stm32f4xx.c
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\cmsis_boot\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\cmsis_boot\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1484741172 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\cmsis\core_cm4.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+	<core_cm4_simd.h>
+
+1484741172 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+
+1484741172 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+
+1484741172 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\cmsis\core_cm4_simd.h
+	<cmsis_iar.h>
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\cmsis_boot\system_stm32f4xx.h
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\cmsis_boot\stm32f4xx_conf.h
+	"stm32f4xx_adc.h"
+	"stm32f4xx_can.h"
+	"stm32f4xx_crc.h"
+	"stm32f4xx_cryp.h"
+	"stm32f4xx_dac.h"
+	"stm32f4xx_dbgmcu.h"
+	"stm32f4xx_dcmi.h"
+	"stm32f4xx_dma.h"
+	"stm32f4xx_exti.h"
+	"stm32f4xx_flash.h"
+	"stm32f4xx_fsmc.h"
+	"stm32f4xx_hash.h"
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_i2c.h"
+	"stm32f4xx_iwdg.h"
+	"stm32f4xx_pwr.h"
+	"stm32f4xx_rcc.h"
+	"stm32f4xx_rng.h"
+	"stm32f4xx_rtc.h"
+	"stm32f4xx_sdio.h"
+	"stm32f4xx_spi.h"
+	"stm32f4xx_syscfg.h"
+	"stm32f4xx_tim.h"
+	"stm32f4xx_usart.h"
+	"stm32f4xx_wwdg.h"
+	"misc.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_adc.h
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_can.h
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_crc.h
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_cryp.h
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dac.h
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dbgmcu.h
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dcmi.h
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dma.h
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_exti.h
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_flash.h
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_fsmc.h
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_hash.h
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_gpio.h
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_i2c.h
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_iwdg.h
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_pwr.h
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_rcc.h
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_rng.h
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_rtc.h
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_sdio.h
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_spi.h
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_syscfg.h
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_tim.h
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_usart.h
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_wwdg.h
+	"stm32f4xx.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\inc\misc.h
+	"stm32f4xx.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\freertos\croutine.c
+	"FreeRTOS.h"
+	"task.h"
+	"croutine.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\freertos\include\freertos.h
+	<stddef.h>
+	"projdefs.h"
+	"FreeRTOSConfig.h"
+	"portable.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\freertos\include\projdefs.h
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\freertos\include\freertosconfig.h
+	"stm32f4xx.h"
+	<stdint.h>
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\freertos\include\portable.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC24_dsPIC\portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC24_dsPIC\portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC18F\portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC32MX\portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\freertos\portable\gcc\arm_cm4f\portmacro.h
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\freertos\include\mpu_wrappers.h
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\freertos\include\task.h
+	"list.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\freertos\include\list.h
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\freertos\include\croutine.h
+	"list.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\freertos\list.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"list.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\freertos\portable\gcc\arm_cm4f\port.c
+	"FreeRTOS.h"
+	"task.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\freertos\portable\memmang\heap_2.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\freertos\queue.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"croutine.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\freertos\include\queue.h
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\freertos\tasks.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"StackMacros.h"
+	<stdio.h>
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\freertos\include\timers.h
+	"task.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\freertos\include\stackmacros.h
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\freertos\timers.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"timers.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\misc.c
+	"misc.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_adc.c
+	"stm32f4xx_adc.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_can.c
+	"stm32f4xx_can.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_crc.c
+	"stm32f4xx_crc.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp.c
+	"stm32f4xx_cryp.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp_aes.c
+	"stm32f4xx_cryp.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp_des.c
+	"stm32f4xx_cryp.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp_tdes.c
+	"stm32f4xx_cryp.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_dac.c
+	"stm32f4xx_dac.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_dbgmcu.c
+	"stm32f4xx_dbgmcu.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_dcmi.c
+	"stm32f4xx_dcmi.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_dma.c
+	"stm32f4xx_dma.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_exti.c
+	"stm32f4xx_exti.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_flash.c
+	"stm32f4xx_flash.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_fsmc.c
+	"stm32f4xx_fsmc.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_gpio.c
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_hash.c
+	"stm32f4xx_hash.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_hash_md5.c
+	"stm32f4xx_hash.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_hash_sha1.c
+	"stm32f4xx_hash.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_i2c.c
+	"stm32f4xx_i2c.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_iwdg.c
+	"stm32f4xx_iwdg.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_pwr.c
+	"stm32f4xx_pwr.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_rcc.c
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_rng.c
+	"stm32f4xx_rng.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_rtc.c
+	"stm32f4xx_rtc.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_sdio.c
+	"stm32f4xx_sdio.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_spi.c
+	"stm32f4xx_spi.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_syscfg.c
+	"stm32f4xx_syscfg.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_tim.c
+	"stm32f4xx_tim.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_usart.c
+	"stm32f4xx_usart.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_wwdg.c
+	"stm32f4xx_wwdg.h"
+	"stm32f4xx_rcc.h"
+
+1638564184 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\tasks\keys\keys.c
+	"Keys.h"
+
+1634906198 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\tasks\keys\keys.h
+	"stm32f4xx.h"
+	"stm32f4xx_tim.h"
+
+1639687471 source:d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\main.c
+	"stm32f4xx.h"
+	"STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_tim.h"
+	"STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_rcc.h"
+	"FreeRTOS/include/FreeRTOS.h"
+	"FreeRTOS/include/task.h"
+	"FreeRTOS/include/semphr.h"
+	"Keys.h"
+
+1484741176 d:\pliki z pulpitu\uz\systemy wbudowane\projekt\program stm32f4\freertos\include\semphr.h
+	"queue.h"
+
+1484741176 source:d:\program stm32f4\cmsis_boot\startup\startup_stm32f4xx.c
+
+1484741176 source:d:\program stm32f4\cmsis_boot\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\cmsis_boot\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1484741172 d:\program stm32f4\cmsis\core_cm4.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+	<core_cm4_simd.h>
+
+1484741172 d:\program stm32f4\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+
+1484741172 d:\program stm32f4\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+
+1484741172 d:\program stm32f4\cmsis\core_cm4_simd.h
+	<cmsis_iar.h>
+
+1484741176 d:\program stm32f4\cmsis_boot\system_stm32f4xx.h
+
+1484741176 d:\program stm32f4\cmsis_boot\stm32f4xx_conf.h
+	"stm32f4xx_adc.h"
+	"stm32f4xx_can.h"
+	"stm32f4xx_crc.h"
+	"stm32f4xx_cryp.h"
+	"stm32f4xx_dac.h"
+	"stm32f4xx_dbgmcu.h"
+	"stm32f4xx_dcmi.h"
+	"stm32f4xx_dma.h"
+	"stm32f4xx_exti.h"
+	"stm32f4xx_flash.h"
+	"stm32f4xx_fsmc.h"
+	"stm32f4xx_hash.h"
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_i2c.h"
+	"stm32f4xx_iwdg.h"
+	"stm32f4xx_pwr.h"
+	"stm32f4xx_rcc.h"
+	"stm32f4xx_rng.h"
+	"stm32f4xx_rtc.h"
+	"stm32f4xx_sdio.h"
+	"stm32f4xx_spi.h"
+	"stm32f4xx_syscfg.h"
+	"stm32f4xx_tim.h"
+	"stm32f4xx_usart.h"
+	"stm32f4xx_wwdg.h"
+	"misc.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_adc.h
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_can.h
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_crc.h
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_cryp.h
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dac.h
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dbgmcu.h
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dcmi.h
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dma.h
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_exti.h
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_flash.h
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_fsmc.h
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_hash.h
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_gpio.h
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_i2c.h
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_iwdg.h
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_pwr.h
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_rcc.h
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_rng.h
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_rtc.h
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_sdio.h
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_spi.h
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_syscfg.h
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_tim.h
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_usart.h
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_wwdg.h
+	"stm32f4xx.h"
+
+1484741176 d:\program stm32f4\stm32f4xx_stdperiph_driver\inc\misc.h
+	"stm32f4xx.h"
+
+1484741176 source:d:\program stm32f4\freertos\croutine.c
+	"FreeRTOS.h"
+	"task.h"
+	"croutine.h"
+
+1484741176 d:\program stm32f4\freertos\include\freertos.h
+	<stddef.h>
+	"projdefs.h"
+	"FreeRTOSConfig.h"
+	"portable.h"
+
+1484741176 d:\program stm32f4\freertos\include\projdefs.h
+
+1484741176 d:\program stm32f4\freertos\include\freertosconfig.h
+	"stm32f4xx.h"
+	<stdint.h>
+
+1484741176 d:\program stm32f4\freertos\include\portable.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC24_dsPIC\portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC24_dsPIC\portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC18F\portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC32MX\portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1484741176 d:\program stm32f4\freertos\portable\gcc\arm_cm4f\portmacro.h
+
+1484741176 d:\program stm32f4\freertos\include\mpu_wrappers.h
+
+1484741176 d:\program stm32f4\freertos\include\task.h
+	"list.h"
+
+1484741176 d:\program stm32f4\freertos\include\list.h
+
+1484741176 d:\program stm32f4\freertos\include\croutine.h
+	"list.h"
+
+1484741176 source:d:\program stm32f4\freertos\list.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"list.h"
+
+1484741176 source:d:\program stm32f4\freertos\portable\gcc\arm_cm4f\port.c
+	"FreeRTOS.h"
+	"task.h"
+
+1484741176 source:d:\program stm32f4\freertos\portable\memmang\heap_2.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+
+1484741176 source:d:\program stm32f4\freertos\queue.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"croutine.h"
+
+1484741176 d:\program stm32f4\freertos\include\queue.h
+
+1484741176 source:d:\program stm32f4\freertos\tasks.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"StackMacros.h"
+	<stdio.h>
+
+1484741176 d:\program stm32f4\freertos\include\timers.h
+	"task.h"
+
+1484741176 d:\program stm32f4\freertos\include\stackmacros.h
+
+1484741176 source:d:\program stm32f4\freertos\timers.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"timers.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\misc.c
+	"misc.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_adc.c
+	"stm32f4xx_adc.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_can.c
+	"stm32f4xx_can.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_crc.c
+	"stm32f4xx_crc.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp.c
+	"stm32f4xx_cryp.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp_aes.c
+	"stm32f4xx_cryp.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp_des.c
+	"stm32f4xx_cryp.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp_tdes.c
+	"stm32f4xx_cryp.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_dac.c
+	"stm32f4xx_dac.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_dbgmcu.c
+	"stm32f4xx_dbgmcu.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_dcmi.c
+	"stm32f4xx_dcmi.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_dma.c
+	"stm32f4xx_dma.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_exti.c
+	"stm32f4xx_exti.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_flash.c
+	"stm32f4xx_flash.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_fsmc.c
+	"stm32f4xx_fsmc.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_gpio.c
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_hash.c
+	"stm32f4xx_hash.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_hash_md5.c
+	"stm32f4xx_hash.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_hash_sha1.c
+	"stm32f4xx_hash.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_i2c.c
+	"stm32f4xx_i2c.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_iwdg.c
+	"stm32f4xx_iwdg.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_pwr.c
+	"stm32f4xx_pwr.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_rcc.c
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_rng.c
+	"stm32f4xx_rng.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_rtc.c
+	"stm32f4xx_rtc.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_sdio.c
+	"stm32f4xx_sdio.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_spi.c
+	"stm32f4xx_spi.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_syscfg.c
+	"stm32f4xx_syscfg.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_tim.c
+	"stm32f4xx_tim.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_usart.c
+	"stm32f4xx_usart.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:d:\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_wwdg.c
+	"stm32f4xx_wwdg.h"
+	"stm32f4xx_rcc.h"
+
+1639756459 source:d:\program stm32f4\tasks\keys\keys.c
+	"Keys.h"
+
+1634902600 d:\program stm32f4\tasks\keys\keys.h
+	"stm32f4xx.h"
+	"stm32f4xx_tim.h"
+
+1639757744 source:d:\program stm32f4\main.c
+	"stm32f4xx.h"
+	"STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_tim.h"
+	"STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_rcc.h"
+	"FreeRTOS/include/FreeRTOS.h"
+	"FreeRTOS/include/task.h"
+	"FreeRTOS/include/semphr.h"
+	"Keys.h"
+
+1484741176 d:\program stm32f4\freertos\include\semphr.h
+	"queue.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\cmsis_boot\startup\startup_stm32f4xx.c
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\cmsis_boot\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\cmsis_boot\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1484741172 g:\systemy wbudowane lab\program stm32f4\cmsis\core_cm4.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+	<core_cm4_simd.h>
+
+1484741172 g:\systemy wbudowane lab\program stm32f4\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+
+1484741172 g:\systemy wbudowane lab\program stm32f4\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+
+1484741172 g:\systemy wbudowane lab\program stm32f4\cmsis\core_cm4_simd.h
+	<cmsis_iar.h>
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\cmsis_boot\system_stm32f4xx.h
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\cmsis_boot\stm32f4xx_conf.h
+	"stm32f4xx_adc.h"
+	"stm32f4xx_can.h"
+	"stm32f4xx_crc.h"
+	"stm32f4xx_cryp.h"
+	"stm32f4xx_dac.h"
+	"stm32f4xx_dbgmcu.h"
+	"stm32f4xx_dcmi.h"
+	"stm32f4xx_dma.h"
+	"stm32f4xx_exti.h"
+	"stm32f4xx_flash.h"
+	"stm32f4xx_fsmc.h"
+	"stm32f4xx_hash.h"
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_i2c.h"
+	"stm32f4xx_iwdg.h"
+	"stm32f4xx_pwr.h"
+	"stm32f4xx_rcc.h"
+	"stm32f4xx_rng.h"
+	"stm32f4xx_rtc.h"
+	"stm32f4xx_sdio.h"
+	"stm32f4xx_spi.h"
+	"stm32f4xx_syscfg.h"
+	"stm32f4xx_tim.h"
+	"stm32f4xx_usart.h"
+	"stm32f4xx_wwdg.h"
+	"misc.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_adc.h
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_can.h
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_crc.h
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_cryp.h
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dac.h
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dbgmcu.h
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dcmi.h
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_dma.h
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_exti.h
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_flash.h
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_fsmc.h
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_hash.h
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_gpio.h
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_i2c.h
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_iwdg.h
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_pwr.h
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_rcc.h
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_rng.h
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_rtc.h
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_sdio.h
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_spi.h
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_syscfg.h
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_tim.h
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_usart.h
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\stm32f4xx_wwdg.h
+	"stm32f4xx.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\inc\misc.h
+	"stm32f4xx.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\freertos\croutine.c
+	"FreeRTOS.h"
+	"task.h"
+	"croutine.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\freertos\include\freertos.h
+	<stddef.h>
+	"projdefs.h"
+	"FreeRTOSConfig.h"
+	"portable.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\freertos\include\projdefs.h
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\freertos\include\freertosconfig.h
+	"stm32f4xx.h"
+	<stdint.h>
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\freertos\include\portable.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC24_dsPIC\portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC24_dsPIC\portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC18F\portmacro.h"
+	"..\..\Source\portable\MPLAB\PIC32MX\portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\freertos\portable\gcc\arm_cm4f\portmacro.h
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\freertos\include\mpu_wrappers.h
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\freertos\include\task.h
+	"list.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\freertos\include\list.h
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\freertos\include\croutine.h
+	"list.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\freertos\list.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"list.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\freertos\portable\gcc\arm_cm4f\port.c
+	"FreeRTOS.h"
+	"task.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\freertos\portable\memmang\heap_2.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\freertos\queue.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"croutine.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\freertos\include\queue.h
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\freertos\tasks.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"StackMacros.h"
+	<stdio.h>
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\freertos\include\timers.h
+	"task.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\freertos\include\stackmacros.h
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\freertos\timers.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"timers.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\misc.c
+	"misc.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_adc.c
+	"stm32f4xx_adc.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_can.c
+	"stm32f4xx_can.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_crc.c
+	"stm32f4xx_crc.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp.c
+	"stm32f4xx_cryp.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp_aes.c
+	"stm32f4xx_cryp.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp_des.c
+	"stm32f4xx_cryp.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_cryp_tdes.c
+	"stm32f4xx_cryp.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_dac.c
+	"stm32f4xx_dac.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_dbgmcu.c
+	"stm32f4xx_dbgmcu.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_dcmi.c
+	"stm32f4xx_dcmi.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_dma.c
+	"stm32f4xx_dma.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_exti.c
+	"stm32f4xx_exti.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_flash.c
+	"stm32f4xx_flash.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_fsmc.c
+	"stm32f4xx_fsmc.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_gpio.c
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_hash.c
+	"stm32f4xx_hash.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_hash_md5.c
+	"stm32f4xx_hash.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_hash_sha1.c
+	"stm32f4xx_hash.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_i2c.c
+	"stm32f4xx_i2c.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_iwdg.c
+	"stm32f4xx_iwdg.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_pwr.c
+	"stm32f4xx_pwr.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_rcc.c
+	"stm32f4xx_rcc.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_rng.c
+	"stm32f4xx_rng.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_rtc.c
+	"stm32f4xx_rtc.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_sdio.c
+	"stm32f4xx_sdio.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_spi.c
+	"stm32f4xx_spi.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_syscfg.c
+	"stm32f4xx_syscfg.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_tim.c
+	"stm32f4xx_tim.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_usart.c
+	"stm32f4xx_usart.h"
+	"stm32f4xx_rcc.h"
+
+1484741176 source:g:\systemy wbudowane lab\program stm32f4\stm32f4xx_stdperiph_driver\src\stm32f4xx_wwdg.c
+	"stm32f4xx_wwdg.h"
+	"stm32f4xx_rcc.h"
+
+1642780695 source:g:\systemy wbudowane lab\program stm32f4\tasks\keys\keys.c
+	"Keys.h"
+
+1642780967 g:\systemy wbudowane lab\program stm32f4\tasks\keys\keys.h
+	"stm32f4xx.h"
+	"stm32f4xx_tim.h"
+	"stm32f4xx_rcc.h"
+	"misc.h"
+
+1642781171 source:g:\systemy wbudowane lab\program stm32f4\main.c
+	"stm32f4xx.h"
+	"STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_tim.h"
+	"STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_rcc.h"
+	"FreeRTOS/include/FreeRTOS.h"
+	"FreeRTOS/include/task.h"
+	"FreeRTOS/include/semphr.h"
+	"Keys.h"
+
+1484741176 g:\systemy wbudowane lab\program stm32f4\freertos\include\semphr.h
+	"queue.h"
+
